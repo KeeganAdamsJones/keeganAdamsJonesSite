@@ -15,25 +15,12 @@ figure {
 }
 
 .image-1-img {
-    /* border radius alone was not rounding my corners...
-        i had to add overflow and perspective to make it work */
     overflow: hidden;
     perspective: 1px;
     border-radius: 150%;
     position: absolute;
     margin-top:-375px;
     margin-left: 550px;
-    z-index: -1;
-}
-.image-1-figcaption {
-    /* border radius alone was not rounding my corners...
-        i had to add overflow and perspective to make it work */
-    overflow: hidden;
-    perspective: 1px;
-
-    position: absolute;
-    margin-top:200px;
-    /*margin-left: 0px;*/
     z-index: -1;
 }
 
@@ -83,7 +70,7 @@ ul {
     color:#f9faf9
 }
 /* ******** about page ********** */
-.image-and-bio {
+.image-resume {
     background-color: #3680db;
     color: black;
     padding: 15px;
