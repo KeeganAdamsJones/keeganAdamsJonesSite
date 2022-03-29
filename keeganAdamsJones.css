@@ -1,0 +1,235 @@
+body {
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+figure {
+    display:inline;
+}
+
+.image-1-img {
+    /* border radius alone was not rounding my corners...
+        i had to add overflow and perspective to make it work */
+    overflow: hidden;
+    perspective: 1px;
+    border-radius: 150%;
+    position: absolute;
+    margin-top:-375px;
+    margin-left: 550px;
+    z-index: -1;
+}
+.image-1-figcaption {
+    /* border radius alone was not rounding my corners...
+        i had to add overflow and perspective to make it work */
+    overflow: hidden;
+    perspective: 1px;
+
+    position: absolute;
+    margin-top:200px;
+    /*margin-left: 0px;*/
+    z-index: -1;
+}
+
+.image-2 {
+    border-radius: 75%;
+    position: relative;
+    width: 250px;
+    height: auto;
+    transform: skewY(335deg);
+    margin-top: 225px;
+    margin-left: 0px;
+    z-index: 1;
+}
+
+.flexcontainer {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.flexcontainer-2 {
+    display: block;
+    justify-content: space-evenly;
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.flexcontainer .links {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #AE31C4;
+}
+
+ul {
+    margin-left: 300px;
+}
+
+.about-link {
+    color: #fcfcfc;
+}
+
+.artGallery-link {
+    color:#f9faf9
+}
+/* ******** about page ********** */
+.image-and-bio {
+    background-color: #3680db;
+    color: black;
+    padding: 15px;
+}
+
+.image-10{
+    /*position: absolute;*/
+    float: left;
+    
+}
+
+.bio-statement {
+    color: black;
+}
+
+/* */
+
+.image-11-and-quote {
+    margin-top: 25px;
+    background-color: #AE31C4;
+    color: black;
+    padding: 15px;
+}
+
+.image-11 {
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-1 {
+    margin-top: 225px;
+    color: black;
+    
+}
+
+/* */
+
+.image-12-and-quote {
+    margin-top: 25px;
+    background-color: #3680DB;
+    color: black;
+    padding: 15px;
+}
+
+.image-12 {
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-2 {
+    margin-top: 25px;
+    color: black;
+    padding: 100px;
+}
+
+/* */
+
+.image-13-and-quote {
+    margin-top: 25px;
+    background-color: #86DC56;
+    color: black;
+    padding: 15px;
+}
+
+.image-13 {
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-3 {
+    margin-top: 25px;
+    color: black;
+    padding: 125px;
+}
+
+/* */
+
+.image-14-and-quote {
+    margin-top: 25px;
+    background-color: #AE31C4;
+    color: black;
+    padding: 15px;
+}
+
+.image-14 {
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-4 {
+    margin-top: 25px;
+    color: black;
+    padding: 100px;
+}
+
+.links {
+    margin-top: 25px;
+    background-color: #86DC56;
+    padding: 25px;
+}
+
+.image-11 {
+    background-color: #AE31C4;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* ******* gallery page ******** */
+
+.image-gallery {
+    background-color: #3680DB;
+}
+
+.footer {
+    background-color: black;
+    padding: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #AE31C4;
+}
