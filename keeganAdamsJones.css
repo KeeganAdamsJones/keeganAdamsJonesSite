@@ -14,7 +14,7 @@ figure {
     display:inline;
 }
 
-.image-1-img {
+.image-1 {
     overflow: hidden;
     perspective: 1px;
     border-radius: 150%;
@@ -69,7 +69,7 @@ ul {
 .artGallery-link {
     color:#f9faf9
 }
-/* ******** about page ********** */
+/* ******** resume page ********** */
 .image-resume {
     background-color: #3680db;
     color: black;
