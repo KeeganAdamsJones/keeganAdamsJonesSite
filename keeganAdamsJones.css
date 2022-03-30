@@ -1,13 +1,13 @@
 body {
     font-family: 'Montserrat';
-    background-color: #E7CC8F;
+    background-color: #F8F3E6;
     color: #48120E;
 }
 
 h1 {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #F8F3E6;
+    color: #48120E;
 }
 
 .topnav {
@@ -77,8 +77,8 @@ ul {
 }
 /* ******** resume page ********** */
 .image-resume {
-    background-color: #3680db;
-    color: black;
+    background-color: #F8F3E6;
+    color: #48120E;
     padding: 15px;
 }
 
