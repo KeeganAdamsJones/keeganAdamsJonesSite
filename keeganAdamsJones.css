@@ -9,12 +9,42 @@ h1 {
     background-color: #F8F3E6;
     color: #48120E;
 }
-
+/*
 .topnav {
     text-align: center;
     background-color: #48120E;
     color: #F8F3E6;
     height: 75px;
+}
+*/
+
+/* Style the navigation menu */
+.topnav {
+    width: 100%;
+    background-color: #48120E;
+    height: 75px;
+    overflow: auto;
+  }
+  
+/* Navigation links */
+.topnav a {
+float: left;
+padding: 12px;
+color: #F8F3E6;
+text-decoration: none;
+font-size: 17px;
+width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.topnav a:hover {
+background-color: #AB3E16;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+background-color: #04AA6D;
 }
 
 figure {
