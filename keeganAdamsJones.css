@@ -2,15 +2,16 @@ body {
     font-family: 'Lato', sans-serif;
     background-image: url("images/henry-co--odUkx8C2gg-unsplash.jpg");
     background-size: 1250px;
-    background-color: #F8F3E6;
-    color: #48120E;
+    background-color: #fcfcfc;
+    color: #4a433d;
 }
 
 h1 {
     font-family: 'Bad Script', cursive;
+    font-size: x-large;
     text-align: center;
-    background-color: #F8F3E6;
-    color: #48120E;
+    background-color: #97b1d2;
+    color: #4a433d;
 }
 /*
 .topnav {
@@ -24,7 +25,7 @@ h1 {
 /* Style the navigation menu */
 .topnav {
     width: 100%;
-    background-color: #48120E;
+    background-color: #d2cec2;
     height: 75px;
     overflow: auto;
   }
@@ -33,7 +34,7 @@ h1 {
 .topnav a {
 float: left;
 padding: 12px;
-color: #F8F3E6;
+color: #c97253;
 text-decoration: none;
 font-size: 17px;
 width: 23%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
