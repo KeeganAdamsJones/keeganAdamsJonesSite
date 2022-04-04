@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat';
+    background-image: url("images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
     background-color: #F8F3E6;
     color: #48120E;
 }
@@ -54,8 +55,7 @@ figure {
 .image-portrait {
     overflow: hidden;
     perspective: 1px;
-    border: 10px solid #EFAA52;
-    border-width: 500;
+    /*border: 10px solid #EFAA52;*/
     border-radius: 150%;
     position: absolute;
     margin-top:100px;
