@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat';
     background-image: url("images/henry-co--odUkx8C2gg-unsplash.jpg");
+    background-size: contain;
     background-color: #F8F3E6;
     color: #48120E;
 }
