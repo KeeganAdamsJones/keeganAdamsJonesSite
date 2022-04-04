@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat';
+    font-family: 'Lato';
     background-image: url("images/henry-co--odUkx8C2gg-unsplash.jpg");
     background-size: 1250px;
     background-color: #F8F3E6;
@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    font-family: 'Bad_Script';
     text-align: center;
     background-color: #F8F3E6;
     color: #48120E;
