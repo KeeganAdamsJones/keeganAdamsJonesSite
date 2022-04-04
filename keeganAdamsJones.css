@@ -25,7 +25,7 @@ h1 {
 /* Style the navigation menu */
 .topnav {
     width: 100%;
-    background-color: #d2cec2;
+    background-color: #dd7450;
     height: 75px;
     overflow: auto;
   }
@@ -34,7 +34,7 @@ h1 {
 .topnav a {
 float: left;
 padding: 12px;
-color: #c97253;
+color: #4a433d;
 text-decoration: none;
 font-size: 17px;
 width: 23%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -43,7 +43,7 @@ text-align: center; /* If you want the text to be centered */
 
 /* Add a background color on mouse-over */
 .topnav a:hover {
-background-color: #EFAA52;
+background-color: #2e5b88;
 }
 
 /* Style the current/active link */
