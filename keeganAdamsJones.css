@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-image: url("images/henry-co--odUkx8C2gg-unsplash.jpg");
+    opacity: 0.5;
     background-size: 1250px;
     background-color: #fcfcfc;
     color: #4a433d;
