@@ -53,7 +53,7 @@ background-color: #04AA6D;
 }
 
 figure {
-    display:inline;
+    display:inline-flex;
 }
 
 /* Two image containers (use 33.3% for three, and 25% for four, etc) */
