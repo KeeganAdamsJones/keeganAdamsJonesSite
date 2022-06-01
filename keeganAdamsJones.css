@@ -13,6 +13,15 @@ h1 {
     background-color: #97b1d2;
     color: #4a433d;
 }
+
+h2 {
+    font-family: 'Bad Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    background-color: #97b1d2;
+    color: #4a433d; 
+}
+
 /*
 .topnav {
     text-align: center;
