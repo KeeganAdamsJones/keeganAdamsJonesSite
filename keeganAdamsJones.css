@@ -22,6 +22,7 @@ h2 {
     color: #4a433d; 
 }
 
+/* ****** Navigation ****** */
 /* Style the navigation menu */
 .topnav {
     width: 100%;
@@ -56,19 +57,9 @@ figure {
     display:inline-flex;
 }
 
-/* Two image containers (use 33.3% for three, and 25% for four, etc) */
-.column {
-    float: left;
-    width: 46%;
-    padding: 5px;
-  }
+
   
-/* Clear floats after image containers */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 
 .image-portrait {
     overflow: hidden;
@@ -119,6 +110,19 @@ figure {
     margin-right: auto;
 }
 
+/* Two image containers (use 33.3% for three, and 25% for four, etc) */
+.column {
+    float: left;
+    width: 46%;
+    padding: 5px;
+  }
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
 
 .experience-title {
     color: #D6D9F0;
@@ -150,35 +154,11 @@ figure {
 
 /* end of hobbies page */
 
-.image-2 {
-    border-radius: 75%;
-    position: relative;
-    width: 250px;
-    height: auto;
-    transform: skewY(335deg);
-    margin-top: 225px;
-    margin-left: 0px;
-    z-index: 1;
-}
 
-.flexcontainer {
-    display:flex;
-    justify-content: space-evenly;
-}
 
-.flexcontainer-2 {
-    display: block;
-    justify-content: space-evenly;
-    width:100%;
-    text-align: center;
-    margin-top: 30px;
-    padding: 25px;
-}
 
-.flexcontainer .links {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+
+
 
 a {
     color:#dd7450;
@@ -189,17 +169,6 @@ a:hover {
     background-color: #97b1d2;
     }
 
-ul {
-    margin-left: 300px;
-}
-
-.about-link {
-    color: #fcfcfc;
-}
-
-.artGallery-link {
-    color:#f9faf9
-}
 /* ******** resume page ********** */
 .image-resume {
     /*background-color: #F8F3E6;*/
@@ -207,144 +176,4 @@ ul {
     padding: 15px;
     margin-left: 250px;
 }
-
-.image-10{
-    /*position: absolute;*/
-    float: left;
-    
-}
-
-.bio-statement {
-    color: black;
-}
-
-/* */
-
-.image-11-and-quote {
-    margin-top: 25px;
-    background-color: #AE31C4;
-    color: black;
-    padding: 15px;
-}
-
-.image-11 {
-    float: left;
-    margin-left: 25px;
-    
-}
-
-
-.quote-1 {
-    margin-top: 225px;
-    color: black;
-    
-}
-
-/* */
-
-.image-12-and-quote {
-    margin-top: 25px;
-    background-color: #3680DB;
-    color: black;
-    padding: 15px;
-}
-
-.image-12 {
-    float: left;
-    margin-left: 25px;
-    
-}
-
-
-.quote-2 {
-    margin-top: 25px;
-    color: black;
-    padding: 100px;
-}
-
-/* */
-
-.image-13-and-quote {
-    margin-top: 25px;
-    background-color: #86DC56;
-    color: black;
-    padding: 15px;
-}
-
-.image-13 {
-    float: left;
-    margin-left: 25px;
-    
-}
-
-
-.quote-3 {
-    margin-top: 25px;
-    color: black;
-    padding: 125px;
-}
-
-/* */
-
-.image-14-and-quote {
-    margin-top: 25px;
-    background-color: #AE31C4;
-    color: black;
-    padding: 15px;
-}
-
-.image-14 {
-    float: left;
-    margin-left: 25px;
-    
-}
-
-
-.quote-4 {
-    margin-top: 25px;
-    color: black;
-    padding: 100px;
-}
-
-
-
-.image-11 {
-    background-color: #AE31C4;
-    padding: 25px;
-    margin-top: 50px;
-}
-
-/* ******* gallery page ******** */
-
-.image-gallery {
-    background-color: #3680DB;
-}
-
-.footer {
-    background-color: black;
-    padding: 25px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-li {
-    float: center;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #AE31C4;
-}
+/* ****** end of resume page ****** */
