@@ -100,7 +100,7 @@ figure {
     grid-template-columns: auto auto auto;
     padding: 25px;
     column-gap: 5px;
-    background-color:#ebeae0 ;
+    background-color:#e3e3e1 ;
 }
 
 .experience-grid {
@@ -108,7 +108,7 @@ figure {
     grid-template-columns: auto auto auto;
     padding: 25px;
     column-gap: 5px;
-    background-color: #ebeae0;
+    background-color: #e3e3e1;
 }
 .center {
     display: block;
