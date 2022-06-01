@@ -87,6 +87,12 @@ figure {
     justify-content: center;
 }
 
+.links {
+    margin-top: 25px;
+    background-color: #dd7450;
+    padding: 10px;
+}
+
 /* ****** hobbies page ****** */
 .caption {
     text-align: center;
@@ -295,11 +301,7 @@ ul {
     padding: 100px;
 }
 
-.links {
-    margin-top: 25px;
-    background-color: #86DC56;
-    padding: 25px;
-}
+
 
 .image-11 {
     background-color: #AE31C4;
