@@ -59,7 +59,7 @@ figure {
 /* Two image containers (use 33.3% for three, and 25% for four, etc) */
 .column {
     float: left;
-    width: 50%;
+    width: 46%;
     padding: 5px;
   }
   
