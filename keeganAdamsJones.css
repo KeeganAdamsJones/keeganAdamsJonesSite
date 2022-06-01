@@ -91,6 +91,7 @@ figure {
 }
 /* ****** about page ****** */
 .about-statement {
+    background-color:#e3e3e1 ;
     margin: 50px;
     justify-content: center;
 }
