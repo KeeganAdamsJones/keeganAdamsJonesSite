@@ -181,8 +181,13 @@ figure {
 }
 
 a {
-    color: #AE31C4;
+    color:#dd7450;
+    
 }
+/* Add a background color on mouse-over */
+a:hover {
+    background-color: #97b1d2;
+    }
 
 ul {
     margin-left: 300px;
