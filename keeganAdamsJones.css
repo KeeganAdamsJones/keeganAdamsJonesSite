@@ -91,6 +91,7 @@ figure {
     grid-template-columns: auto auto auto;
     padding: 25px;
     column-gap: 5px;
+    background-color:beige ;
 }
 
 .experience-grid {
@@ -98,6 +99,7 @@ figure {
     grid-template-columns: auto auto auto;
     padding: 25px;
     column-gap: 5px;
+    background-color: beige;
 }
 .center {
     display: block;
