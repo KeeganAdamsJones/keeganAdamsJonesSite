@@ -76,6 +76,8 @@ figure {
     background-color:#e3e3e1 ;
     margin: 250px;
     justify-content: center;
+    text-align: center;
+    font-size: 25px;
 }
 
 .links {
